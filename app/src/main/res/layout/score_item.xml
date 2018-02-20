@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/classname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#4d5fff"
+            android:textStyle="bold"
+            android:text="课程名称" />
+    </RelativeLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:background="#efefef"></View>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/classscore"
+            android:textSize="16dp"
+            android:textColor="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="成绩" />
+    </RelativeLayout>
+</LinearLayout>
